@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Uppgifter 7</title>
+  </head>
+  <body>
+    <body>
+
+        <div class="form-container">
+          <input type="number" class="form-input" placeholder="Ange temperatur">
+          <select class="form-select">
+            <option value="title">Välj temperaturskala</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="rankine">Rankine</option>
+          </select>
+          <button class="form-button">Konvertera</button>
+          <p class="error"></p>
+        </div>
+    
+
+        <table>
+          <tr>
+            <th>Temperaturskala</th>
+            <th>Temperatur</th>
+          </tr>
+          <tr>
+            <td>Celsius (C)</td>
+            <td class="tempCelsius"></td>
+          </tr>
+          <tr>
+            <td>Fahrenheit (F)</td>
+            <td class="tempFahrenheit"></td>
+          </tr>
+          <tr>
+            <td>Kelvin (K)</td>
+            <td class="tempKelvin"></td>
+          </tr>
+          <tr>
+            <td>Rankine (Ra)</td>
+            <td class="tempRankine"></td>
+          </tr>
+        </table>
+    <script src="script.js"></script>
+  </body>
+</html>
